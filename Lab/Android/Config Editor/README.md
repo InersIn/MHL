@@ -4,9 +4,9 @@
 ![yaml.snakeyaml](images/snakeyaml.png)
 2. The app is have function to execute command injection but never been called, we can used snakeyaml vulnerability to call this function.
 ![function command injection](images/function-command-injection.png)
-3. The yaml.snakeyaml is vulnerable to java deserialization when loading file config *.yml.
+4. The yaml.snakeyaml is vulnerable to java deserialization when loading file config *.yml.
 ![snakeyaml implementation](images/snakeyaml-implementation.png)
-4. We create `exploit.yml` look like below.
+5. We create `exploit.yml` look like below.
 ```yml
 test:
     - !!com.mobilehackinglab.configeditor.LegacyCommandUtil ["touch /data/data/com.mobilehackinglab.configeditor/files/inersin"]
