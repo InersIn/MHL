@@ -1,6 +1,6 @@
 # Enumeration
 
-1. The app is vulnerable to yaml.snakeyaml for detail the package "org.yaml.snakeyaml".
+1. The app is vulnerable to yaml.snakeyaml for detail the package "org.yaml.snakeyaml" [CVE-2022-1471](https://snyk.io/blog/unsafe-deserialization-snakeyaml-java-cve-2022-1471/).
 ![yaml.snakeyaml](images/snakeyaml.png)
 2. The app is have function to execute command injection but never been called, we can used snakeyaml vulnerability to call this function.
 ![function command injection](images/function-command-injection.png)
