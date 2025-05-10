@@ -1,0 +1,50 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "com.mobilehackinglab.cyclicscanner.apk"
+  ],
+  "treeExpansions": [
+    [
+      "Resources",
+      "com.mobilehackinglab.cyclicscanner.apk"
+    ],
+    [
+      "Source code",
+      "com.mobilehackinglab.cyclicscanner.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "com.mobilehackinglab.cyclicscanner.apk"
+    ],
+    [
+      "mobilehackinglab.cyclicscanner",
+      "com",
+      "Source code",
+      "com.mobilehackinglab.cyclicscanner.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.cyclicscanner.MainActivity",
+      "subPath": "java",
+      "caret": 5850,
+      "view": {
+        "x": 0,
+        "y": 1254
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    }
+  ],
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "pluginOptions": {}
+}

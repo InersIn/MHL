@@ -1,0 +1,1 @@
+touch /data/data/com.mobilehackinglab.configeditor/files/wadidawngab && touch /data/data/com.mobilehackinglab.configeditor/files/wadidawngab1

@@ -1,0 +1,99 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "com.mobilehackinglab.configeditor.apk"
+  ],
+  "treeExpansions": [
+    [
+      "Source code",
+      "com.mobilehackinglab.configeditor.apk"
+    ],
+    [
+      "com",
+      "Source code",
+      "com.mobilehackinglab.configeditor.apk"
+    ],
+    [
+      "mobilehackinglab.configeditor",
+      "com",
+      "Source code",
+      "com.mobilehackinglab.configeditor.apk"
+    ],
+    [
+      "org",
+      "Source code",
+      "com.mobilehackinglab.configeditor.apk"
+    ],
+    [
+      "yaml.snakeyaml",
+      "org",
+      "Source code",
+      "com.mobilehackinglab.configeditor.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.configeditor.LegacyCommandUtil",
+      "subPath": "java",
+      "caret": 1079,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.configeditor.MainActivity",
+      "subPath": "java",
+      "caret": 13348,
+      "view": {
+        "x": 0,
+        "y": 3215
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "org.yaml.snakeyaml.Yaml",
+      "subPath": "java",
+      "caret": 9083,
+      "view": {
+        "x": 0,
+        "y": 3583
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.configeditor.R",
+      "subPath": "java",
+      "caret": 151,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    }
+  ],
+  "enableLiveReload": false,
+  "searchHistory": [],
+  "pluginOptions": {}
+}
