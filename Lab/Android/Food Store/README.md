@@ -31,6 +31,11 @@
 inersin', 'aW5lcnNpbg==', 'U3QuIFRlc3RpbmcK', 1);#
 ```
 
+so the insert query will look like this:
+```sql
+INSERT INTO users (username, password, address, isPro) VALUES ('inersin', 'aW5lcnNpbg==', 'U3QuIFRlc3RpbmcK', 1);#, 'BASE64_PASS', 'BASE64_ADDRS', 0)
+```
+
 5. Insert the payload into username field and the application toastes `User Registered Successfully`.
 ![register with payload](images/signup1.png)
 
