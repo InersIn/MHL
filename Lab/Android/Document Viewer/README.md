@@ -4,7 +4,7 @@
 2. The application `MainActivity.onCreate` is call 2 function.
 ![mainactivity](images/main.png)
 
-3. The `handleIntent` is make the application able to received incoming `Intent` and when the user try open PDF file from file manager or other app, this app will able to chose as pdf viewer.
+3. The `handleIntent` is make the application able to received incoming `Intent` with action `android.intent.action.VIEW` and when the user try open PDF file from file manager or other app, this app will able to chose as pdf viewer.
 ![handleIntent](images/handleIntent.png)
 
 4. The `loadProLibrary` is loaded shared object `libdocviewer_pro.so` inside app path `/data/data/com.mobilehackinglab.documentviewer/files/native-libraries/` and if the shared object is successfully loaded, it will set `proFeaturesEnabled` to `true`.
@@ -13,7 +13,7 @@
 5. Inside the shared object `libdocviewer_pro.so`, we assumed there is a function named `initProFeatures` that will be called if `libdocviewer_pro.so` is successfully loaded, because there is constructor for this function but not exists in any class.
 ![native function initProFeatures](images/initProFeatures.png)
 
-6. `handleIntent` function is called function `copyFileFromUri` from class `CopyUtil`, this function is to download file from Uri provided from `Intent` and saved as "download.pdf" if at the end url is not a filename with extension in it.
+6. `handleIntent` function is called function `copyFileFromUri` from class `CopyUtil`, this function is to download file from Uri provided from `Intent` with specified content type `application/pdf` and saved as "download.pdf" if at the end url is not a filename with extension in it.
 ![handleIntent copyFileFromUri](images/handle%20intent%20and%20load.png)
 ![copyFileFromUri](images/copyFileFromUrl%20vuln%20code.png)
 
