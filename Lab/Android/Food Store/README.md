@@ -16,9 +16,11 @@
 
 # Exploitation
 1. Run the application, navigate to Sign Up.
+
 ![main](images/init.png)
 
 2. First we input basic sql injection by add `'` in username field.
+
 ![sql basic enum](images/sql%20injection%20test%20error%20android.png)
 
 3. We can see in adb log is logged the sql error.
@@ -33,6 +35,7 @@ inersin', 'aW5lcnNpbg==', 'U3QuIFRlc3RpbmcK', 1);#
 ![register with payload](images/signup1.png)
 
 6. Login with injected user and password.
+
 ![success login with pro account](images/sccess%20login%20pro%20account.png)
 
 # Extra Steps
@@ -47,4 +50,4 @@ inersin', 'aW5lcnNpbg==', 'U3QuIFRlc3RpbmcK', 1);#
 ![open db](images/open%20db.png)
 ![open table](images/check%20tables%20data.png)
 
-5. By do some this extra step, we can check and  make sure is our payload injection working properly, in our case the password base64 we injected is included neweline, that's why when i try login it's keep say the account is invalid :)
+5. By do some this extra step, we can check and  make sure is our payload injection working properly, in our case the password base64 we injected is included neweline, that's why when we try login it's keep say the account is invalid :)
