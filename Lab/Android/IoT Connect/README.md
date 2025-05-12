@@ -11,9 +11,11 @@
 
 4. For example in `BulbFragment` is not check for is user a guest, but in `ACFragment` is do check user.
 - BulbFragment
-![BulbFragment](images/Bulbs%20user%20check.png)
+
+   ![BulbFragment](images/Bulbs%20user%20check.png)
 - ACFragment
-![ACFragment](images/AC%20user%20check.png)
+
+   ![ACFragment](images/AC%20user%20check.png)
 
 5. In `MasterSwitchActivity` we need to input pin and will send the broadcast and this code is vuln becaused it's only restrict guest to access in client-side for accessing the functionality to turn on all devices.
 ![MasterSwithActivity](images/MasterSwitchAct%20user%20check.png)
@@ -34,7 +36,8 @@
 
 # Exploitation
 1. Register user and login.
-![Login](images/login%20guest.png)
+
+   ![Login](images/login%20guest.png)
 
 2. Try turn on devices.
 - Allowed devices.
@@ -46,10 +49,12 @@
    ![AC Device](images/ACDevice.png)
 
 3. Try access Master Switch.
-![Master Switch](images/Access%20Master%20Switch.png)
+
+   ![Master Switch](images/Access%20Master%20Switch.png)
 
 4. Based on function `decrypt`, we can copy the code and make our own java code, so we able to emulated the decrypt check pin functionality.
-![Checker Class](images/Checker%20class.png)
+
+   ![Checker Class](images/Checker%20class.png)
 
 5. In our own `Checker.java`, we can do bruteforce the pin from 0-999 and find the decrypt result that match "master_on", that way we able to find the correct pin.
 ![Checker.java](images/bruteforce%20code%20and%20ourput.png)
