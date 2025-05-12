@@ -39,7 +39,7 @@
 
    ![app init](images/app%20init.png)
 
-2. To debug if our payload is overwrite into variable `dest` inside native lib that later will used to in `system`, we make frida script to hook `system` function and print out the argument.
+2. To debug if our payload is overwrite into variable `dest` inside native lib that later will used in `system` as argument, we make frida script to hook `system` function and print out the argument.
 ```js
 Java.perform(() => {
     Interceptor.attach(Module.findExportByName("libc.so", "system"), {
