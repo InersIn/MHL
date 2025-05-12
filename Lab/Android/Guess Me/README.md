@@ -3,7 +3,8 @@
 ![AndroidManifest](images/androidmanifest.png)
 
 2. Class `WebviewActivity` is do setup the `webView`, it's enabled the javascript and add javascript interface, then call `loadAssetIndex` and `handledDeepLink`.
-![WebviewActivity](images/WebviewActivity.png)
+
+   ![WebviewActivity](images/WebviewActivity.png)
 
 3. The JavaScript Interface allows us to call Java functions from within JavaScript that is loaded in the WebView by using `AndroidBridge`.
 ![javascript interface](images/MyJavaScriptInterface.png)
@@ -61,4 +62,5 @@ am start -W -a android.intent.action.VIEW -d "mhl://mobilehackinglab?url=http%3A
 ![run payload](images/run%20command%20intent.png)
 
 8. The app will render and display the output of `AndroidBridge.getTime`, which during execution will appear as `AndroidBridge.getTime("id")`.
-![RCE output](images/rce.png)
+
+   ![RCE output](images/rce.png)
