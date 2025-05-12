@@ -23,7 +23,7 @@
 
    ![variable dest info](images/variabl%20dest%20info.png)
 
-7. And also get our title length and used it for loop through each char our title and copy it to `title_copy` which the can caused buffer overflow.
+7. And also get our title length and used it for loop through each char our title and copy it to `title_copy` which this can caused buffer overflow.
 
    ![for loop cause bof](images/overflow%20flow.png)
 
@@ -31,7 +31,7 @@
 
    ![overwrite flow](images/overwrite%20flow.png)
 
-9by overflow the `title_copy` and overwrite data in `dest` we can inject our malicious code and gained RCE.
+9. by overflow the `title_copy` and overwrite data in `dest` we can inject our malicious code and gained RCE.
 
 
 # Exploitation
