@@ -1,0 +1,514 @@
+{
+  "projectVersion": 1,
+  "files": [
+    "com.mobilehackinglab.iotconnect.apk"
+  ],
+  "treeExpansions": [
+    [
+      "Resources",
+      "com.mobilehackinglab.iotconnect.apk"
+    ]
+  ],
+  "codeData": {
+    "comments": [],
+    "renames": []
+  },
+  "openTabs": [
+    {
+      "type": "class",
+      "tabPath": "_COROUTINE.ArtificialStackFrames",
+      "subPath": "java",
+      "caret": 1288,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "_COROUTINE.CoroutineDebuggingKt",
+      "subPath": "java",
+      "caret": 1551,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "Checker",
+      "subPath": "java",
+      "caret": 1381,
+      "view": {
+        "x": 0,
+        "y": 77
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "resource",
+      "tabPath": "AndroidManifest.xml",
+      "subPath": "",
+      "caret": 2553,
+      "view": {
+        "x": 0,
+        "y": 597
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.SignupActivity",
+      "subPath": "java",
+      "caret": 2522,
+      "view": {
+        "x": 0,
+        "y": 1770
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.SignupActivity$onCreate$1$1",
+      "subPath": "java",
+      "caret": 1107,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.ROOM.AppDatabase",
+      "subPath": "java",
+      "caret": 804,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "androidx.room.RoomDatabase",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 4386
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.ROOM.User",
+      "subPath": "java",
+      "caret": 5466,
+      "view": {
+        "x": 0,
+        "y": 1233
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.SignupActivity$signup$2",
+      "subPath": "java",
+      "caret": 1174,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.ROOM.UserDao",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.MainActivity",
+      "subPath": "java",
+      "caret": 902,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.SignupActivity$$ExternalSyntheticLambda0",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.SignupActivity$signup$1",
+      "subPath": "java",
+      "caret": 707,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.LoginActivity",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 1770
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.LoginActivity$$ExternalSyntheticLambda0",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.LoginActivity$$ExternalSyntheticLambda1",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.LoginActivity$login$1",
+      "subPath": "java",
+      "caret": 710,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.MasterSwitchActivity",
+      "subPath": "java",
+      "caret": 1690,
+      "view": {
+        "x": 0,
+        "y": 553
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.HomeActivity",
+      "subPath": "java",
+      "caret": 4685,
+      "view": {
+        "x": 0,
+        "y": 587
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.CommunicationManager",
+      "subPath": "java",
+      "caret": 3532,
+      "view": {
+        "x": 0,
+        "y": 255
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.MasterSwitchActivity$$ExternalSyntheticLambda0",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.databinding.ActivityHomeBinding",
+      "subPath": "java",
+      "caret": 449,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.databinding.ActivityIotNavigationBinding",
+      "subPath": "java",
+      "caret": 462,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.databinding.ActivityLoginBinding",
+      "subPath": "java",
+      "caret": 2168,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.databinding.ActivityMainBinding",
+      "subPath": "java",
+      "caret": 345,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.databinding.ActivityMasterSwitchBinding",
+      "subPath": "java",
+      "caret": 2161,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.databinding.ActivitySignupBinding",
+      "subPath": "java",
+      "caret": 482,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.R",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 265172
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.CommunicationManager$initialize$1",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 0
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "androidx.localbroadcastmanager.content.LocalBroadcastManager",
+      "subPath": "java",
+      "caret": 5438,
+      "view": {
+        "x": 0,
+        "y": 2368
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.IoTNavigationActivity",
+      "subPath": "java",
+      "caret": 1673,
+      "view": {
+        "x": 0,
+        "y": 532
+      },
+      "active": true,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.Fragments.FansFragment",
+      "subPath": "java",
+      "caret": 7974,
+      "view": {
+        "x": 0,
+        "y": 1267
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.Fragments.BulbsFragment",
+      "subPath": "java",
+      "caret": 0,
+      "view": {
+        "x": 0,
+        "y": 204
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    },
+    {
+      "type": "class",
+      "tabPath": "com.mobilehackinglab.iotconnect.Fragments.ACFragment",
+      "subPath": "java",
+      "caret": 5876,
+      "view": {
+        "x": 0,
+        "y": 950
+      },
+      "active": false,
+      "pinned": false,
+      "bookmarked": false,
+      "hidden": false
+    }
+  ],
+  "enableLiveReload": false,
+  "searchHistory": [
+    "Sorry",
+    "MasterReceiver"
+  ],
+  "pluginOptions": {}
+}
